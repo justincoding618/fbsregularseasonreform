@@ -11,7 +11,7 @@ An interactive web application exploring how the regular season can be reformed 
 # Tech Stack
 
 - HTML5, CSS3, JavaScript
-- Deployment TBD
+- Deployed on GitHub Pages
 
 # Images and Icons
 

@@ -280,6 +280,14 @@ a:active {
   color: #080;
 }
 
+footer {
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+
 details {
   border: 1px solid #ccc;
   border-radius: 4px;

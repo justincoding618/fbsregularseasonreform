@@ -15,9 +15,9 @@ An interactive web application exploring how the regular season can be reformed 
 
 # Images and Icons
 
-- Images were found through [Flaticon](https://www.flaticon.com/)
+- Images were found through [Flaticon](https://www.flaticon.com/) amd [The Noun Project](https://thenounproject.com/)
 - Icon used was from [Icon-Icons](https://images.icon-icons.com/1465/PNG/512/669americanfootball_100217.png)
 
 # Live Demo
 
-Coming Soon!
+You can checkout the website here: https://justincoding618.github.io/fbsregularseasonreform/

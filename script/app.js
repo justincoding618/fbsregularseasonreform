@@ -8,10 +8,6 @@ const hideSideBar = function () {
   sidebar.style.display = "none";
 };
 
-$(function () {
-  $("#navbar").load("/reusable/navbar.html");
-});
-
 const loadHeadFeature = function (rel, File, type = "") {
   const link = document.createElement("link");
   link.rel = rel;
@@ -20,13 +16,19 @@ const loadHeadFeature = function (rel, File, type = "") {
   document.head.appendChild(link);
 };
 
+const base = "/fbsregularseasonreform";
+
+$(function () {
+  $("#navbar").load(`${base}/reusable/navbar.html`);
+});
+
 loadHeadFeature("preconnect", "https://fonts.googleapis.com");
 loadHeadFeature("preconnect", "https://fonts.gstatic.com");
 loadHeadFeature(
   "stylesheet",
   "https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap",
 );
-loadHeadFeature("stylesheet", "/css/style.css");
+loadHeadFeature("stylesheet", `${base}/css/style.css`);
 loadHeadFeature(
   "icon",
   "https://images.icon-icons.com/1465/PNG/512/669americanfootball_100217.png",

@@ -21,6 +21,9 @@ const base = "/fbsregularseasonreform";
 $(function () {
   $("#navbar").load(`${base}/reusable/navbar.html`);
 });
+$(function () {
+  $("#footer").load(`${base}/reusable/footer.html`);
+});
 
 loadHeadFeature("preconnect", "https://fonts.googleapis.com");
 loadHeadFeature("preconnect", "https://fonts.gstatic.com");
